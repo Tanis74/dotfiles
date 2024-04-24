@@ -2,8 +2,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source $HOME/.setup-profile
-source $HOME/.geometer-profile
+# source $HOME/.setup-profile
+# source $HOME/.geometer-profile
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -16,9 +16,9 @@ plugins=(
 )
 source $ZSH/oh-my-zsh.sh
 
-source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
-. $HOME/.asdf/completions/asdf.bash
+# source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+# source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# . $HOME/.asdf/completions/asdf.bash
 
 export EDITOR='vim'
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
