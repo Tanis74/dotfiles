@@ -48,4 +48,3 @@ alias t='bin/dev/test'
 alias shipit='bin/dev/shipit'
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-

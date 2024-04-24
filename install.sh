@@ -23,10 +23,10 @@ cp tmux/.tmux.conf $HOME/.tmux.conf
 # Vim
 echo "Copying .vimrc"
 [ -f $HOME/.vimrc ] && mv $HOME/.vimrc $HOME/.vimrc.backup
-cp vim/vimrc $HOME/.vimrc
+cp vim/.vimrc $HOME/.vimrc
 
 [ -f $HOME/.vimbundle ] && mv $HOME/.vimbundle $HOME/.vimbundle.backup
-cp vim/vimbundle $HOME/.vimbundle
+cp vim/.vimbundle $HOME/.vimbundle
 
 # Ensure dirs present
 mkdir -p $HOME/.vim/autoload
