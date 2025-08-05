@@ -1,0 +1,9 @@
+---
+
+- clean: ['~']
+
+- create:
+    - ~/.nano-backups
+
+- link:
+    ~/.nanorc: config/nanorc
