@@ -1,0 +1,19 @@
+#Выводим строку состояния
+hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+
+# Добавляем некоторые настройки
+startup_message off
+defscrollback 1000
+defutf8 on
+shell -$SHELL
+
+# Создаем несколько окон
+chdir
+screen -t Main 1
+chdir /etc
+screen -t etc 2
+chdir /var/log
+screen -t logs 3
+
+# Активное первое окно после запуска
+select 1

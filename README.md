@@ -8,3 +8,7 @@
 
 
 https://github.com/sobolevn/dotfiles
+
+#### Screen
+  https://serveradmin.ru/debian-nastroyka-servera/
+  http://itman.in/ssh-screen/

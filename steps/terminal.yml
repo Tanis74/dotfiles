@@ -9,3 +9,4 @@
     ~/.nanorc: config/nanorc
     ~/.gitconfig: config/gitconfig
     ~/.gitignore_global: config/gitignore
+    ~/.screenrc: config/screenrc
