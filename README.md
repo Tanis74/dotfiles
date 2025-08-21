@@ -8,3 +8,4 @@
 
 
 https://github.com/sobolevn/dotfiles
+https://blog.gitbutler.com/how-git-core-devs-configure-git/
